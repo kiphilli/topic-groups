@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Topic Groups</fullName>
+    <description>Way to associate CollaborationGroups with a Topic.</description>
+    <types>
+        <members>CollaborationGroupBuilder</members>
+        <members>CollaborationGroupProxyBuilder</members>
+        <members>CollaborationGroupTriggerHandler</members>
+        <members>CollaborationGroupTriggerHandlerTest</members>
+        <members>CollaborationGroup_TriggerHandler</members>
+        <members>PSGroupBuilder</members>
+        <members>SimpleMapCacheHelper</members>
+        <members>TopicGroupListController</members>
+        <members>TopicGroupListControllerTest</members>
+        <members>TriggerFactory</members>
+        <members>TriggerFactoryHandlerBase</members>
+        <members>TriggerUtility</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>CollaborationGroupTrigger</members>
+        <name>ApexTrigger</name>
+    </types>
+    <types>
+        <members>TopicGroupList</members>
+        <name>AuraDefinitionBundle</name>
+    </types>
+    <types>
+        <members>CollaborationGroup_Proxy__c.CollaborationGroup_Id__c</members>
+        <members>CollaborationGroup_Proxy__c.Network_Id__c</members>
+        <members>PS_Group__c.CollaborationGroup_Id__c</members>
+        <members>PS_Group__c.Curated_Topic_Name__c</members>
+        <members>PS_Group__c.Group_Name__c</members>
+        <members>PS_Group__c.PS_Site__c</members>
+        <members>PS_Group__c.Show_Curated_Articles__c</members>
+        <members>PS_Site__c.Page_Name__c</members>
+        <members>PS_Site__c.Page_Title__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>CollaborationGroup_Proxy__c</members>
+        <members>PS_Group__c</members>
+        <members>PS_Site__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>CollaborationGroup_Proxy__c</members>
+        <name>CustomTab</name>
+    </types>
+    <types>
+        <members>CollaborationGroup_Proxy__c-CollaborationGroup Proxy Layout</members>
+        <members>PS_Group__c-PS Group Layout</members>
+        <members>PS_Site__c-PS Site Layout</members>
+        <name>Layout</name>
+    </types>
+    <types>
+        <members>CollaborationGroup_Proxy__c.All</members>
+        <members>PS_Group__c.All</members>
+        <members>PS_Site__c.All</members>
+        <name>ListView</name>
+    </types>
+    <version>43.0</version>
+</Package>
